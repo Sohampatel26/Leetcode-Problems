@@ -1,7 +1,3 @@
-import heapq
-from collections import defaultdict
-from typing import List
-
 class Twitter:
     def __init__(self):
         self.time = 0  # Global timestamp to track when tweets are posted

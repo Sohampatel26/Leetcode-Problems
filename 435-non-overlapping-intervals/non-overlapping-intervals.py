@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
-        intervals.sort()
+        intervals.sort(key=lambda s:s[0])
         prevend=intervals[0][1]
         removals=0
 

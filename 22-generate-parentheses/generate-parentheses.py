@@ -1,6 +1,5 @@
-class Solution(object):
-    def generateParenthesis(self, n):
-
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
         res=[]
         stack=[]
         def bt(o,c):
